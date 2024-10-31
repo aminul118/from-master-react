@@ -1,8 +1,20 @@
-# React + Vite
+# React Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Turn off Default behavior
 
-Currently, two official plugins are available:
+```
+ const handleSubmit = (e) => {
+    e.preventDefault();
+ }
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Form Type
+
+- Simple Form
+- Stateful form where we set value and can validation each individual input field
+
+### Event Handler + Hook
+
+- **onSubmit()**
+- **onChange()** : Show Real time output
+- **useRef** : Hook for current value allows to create a reference to a DOM element.

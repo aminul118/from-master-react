@@ -6,7 +6,7 @@ const StatefullForm = () => {
   const [password, setPassword] = useState(null);
 
 
-  const handdleSubmit = (e) => {
+  const handsdleSubmit = (e) => {
     e.preventDefault();
         console.log(name);
     console.log(email);
@@ -26,7 +26,7 @@ const StatefullForm = () => {
   };
   return (
     <div>
-      <form onSubmit={handdleSubmit}>
+      <form onSubmit={handsdleSubmit}>
         <input onChange={handleNameChange} type="text" name="text" placeholder="Write Anything" id="" />
         <br />
         <input
